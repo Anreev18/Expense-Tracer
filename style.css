@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.balance-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.income-expense {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.income, .expense {
+    width: 45%;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.income {
+    background: #d4edda;
+    color: green;
+}
+
+.expense {
+    background: #f8d7da;
+    color: red;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+#list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#list li {
+    background: #eee;
+    padding: 10px;
+    margin: 10px 0;
+    border-right: 5px solid;
+}
+
+.plus {
+    border-color: green;
+}
+
+.minus {
+    border-color: red;
+}
